@@ -1,0 +1,29 @@
+<!-- WATCHLIST INTERFACE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>My Watchlist</title> 
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3418/3418886.png" />
+</head>
+
+<body>
+  <h1>📋 My Watchlist</h1>
+  <p class="tagline">Plan · Watch · Rate</p>
+
+  <div id="stats" class="panel"></div>
+
+  <label>Show: </label>
+  <select id="filter">
+    <option value="All">All</option>
+    <option value="To Watch">To Watch</option>
+    <option value="Watched">Watched</option>
+  </select>
+
+  <div id="list"></div>
+
+  <script src="watchlist.js"></script>
+</body>
+</html>

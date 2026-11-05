@@ -1,0 +1,39 @@
+<!-- MAIN PAGE INTERFACE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MyMovie</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3418/3418886.png" />
+</head>
+<body>
+  <h1>🎬 MyMovie</h1>
+  <p class="tagline">Movie Plan Application</p>
+
+  <div class="panel">
+    <h2>🔍 Search a Movie</h2>
+    <input type="text" id="title" placeholder="Enter movie title (e.g. Inception)" />
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <div class="panel">
+    <h2>🎯 Suggest by Genre</h2>
+    <select id="genre">
+      <option>Action</option><option>Adventure</option><option>Animation</option>
+      <option>Biography</option><option>Comedy</option><option>Crime</option>
+      <option>Drama</option><option>Fantasy</option><option>Horror</option>
+      <option>Mystery</option><option>Romance</option><option>Sci-Fi</option>
+      <option>Thriller</option><option>War</option>
+    </select>
+    <button id="suggestBtn">Suggest Movies</button>
+  </div>
+
+  <button id="watchlistBtn">📋 My Watchlist</button>
+
+  <div id="status"></div>
+  <div id="result"></div>
+
+  <script src="index.js"></script>
+</body>
+</html>
